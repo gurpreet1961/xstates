@@ -118,10 +118,9 @@ const App = () => {
 
 			{selectedCity && (
 				<h4>
-					You selected{" "}
-					<span className="selectCountry">{selectedCountry}, </span>
+					You selected <span className="selectCity">{selectedCity}, </span>
 					<span>
-						{selectedState}, {selectedCity}
+						{selectedState}, {selectedCountry}
 					</span>
 				</h4>
 			)}
